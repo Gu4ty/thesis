@@ -34,6 +34,7 @@ def main():
 
     x1 = [uniform(10, 200) for _ in range(1000)]
     x2 = [uniform(10, 200) for _ in range(1000)]
+    X = [[x, y] for (x, y) in zip(x1, x2)]
     y = [[lv2(x, alpha, beta)] for x in X]
     plt.plot(y, label="original")
     plt.plot(eval_model(m, X), label="predicted")
