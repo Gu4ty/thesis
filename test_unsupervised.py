@@ -3,12 +3,20 @@ import matplotlib.pyplot as plt
 import math
 
 
+# def y(t):
+#     return math.exp(-(t ** 2))
+
+
+# def y_prime(t):
+#     return -2 * t * y(t)
+
+
 def y(t):
-    return math.exp(-(t ** 2))
+    return (3 * math.exp(2 * t) - 1) / (1 - math.exp(2 * t))
 
 
 def y_prime(t):
-    return -2 * t * y(t)
+    return y(t) ** 2 + 4 * y(t) + 3
 
 
 def main():
