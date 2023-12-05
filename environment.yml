@@ -1,0 +1,14 @@
+name: thesis116
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - torchvision
+  - cudatoolkit=11.6
+  - pytorch
+  - torchaudio
+  - scipy
+  - matplotlib
+  - ipykernel
+  - black
+prefix: /home/dgd/miniconda3/envs/thesis116
