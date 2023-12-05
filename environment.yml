@@ -11,4 +11,3 @@ dependencies:
   - matplotlib
   - ipykernel
   - black
-prefix: /home/dgd/miniconda3/envs/thesis116
